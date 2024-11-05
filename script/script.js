@@ -1,0 +1,4 @@
+"usestrict";
+console.clear();
+
+
