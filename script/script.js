@@ -21,6 +21,7 @@ console.clear();
 // 1 - Inizializzare 2 variabili prompt: nella prima chiediamo all'utente di scegliere pari o dispari, la seconda la convertiamo in numero e chiediamo dis cegliere un numero
 // 2 - Creare una funzione che generi un numero casuale che va da 1 a 5 ed assegnarlo al pc
 // 3 - Inizializzare una variabile, dandogli come valore: numeroUtente + numeroPc
+// 4 - Stabilire se il risultato di questa somma sia pari o dispari e di conseguenza decretare il vincitore
 
 
 let userChoice = prompt("Scegliere pari o dispari");
