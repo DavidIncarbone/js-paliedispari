@@ -56,18 +56,37 @@ function oddsEven() {
     }
 }
 
-// ODDS EVEN DECISION
+// ODDS EVEN GAME 2
 
 /**
  * 
  * @param {num} num 
  * @returns 
- * @abstract Far ritornare un valore booleano alla domanda "il numero è pari?"
+ * @abstract 
  */
 
-function isEven(num) {
+function oddsOrEven(num) {
 
-    return num % 2 === 0;
+    let result = "";
+
+    if (num % 2 === 0) {
+        console.log(`Il risultato è pari`);
+        result = "pari"
+    } else {
+        console.log(`Il risultato è dispari`);
+        result = "dispari"
+
+    } if (userChoice === result) {
+
+        console.log("Complimenti hai vinto!");
+
+    } else {
+
+        console.log("Spiacente hai perso");
+
+    }
+
+
 }
 
 // DICE GAME
