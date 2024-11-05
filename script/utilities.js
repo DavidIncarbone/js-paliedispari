@@ -71,8 +71,12 @@ function isEven(num) {
 }
 
 // DICE GAME
-
-
+/**
+ * 
+ * @param {num} userNumber 
+ * @param {num} pcNumber 
+ * @returns 
+ */
 
 function dice() {
 
@@ -95,23 +99,32 @@ function dice() {
             "Tu e il pc avete pescato lo stesso numero, abbiamo quindi un pareggio!");
 
     }
-    return
-};
+    return;
+}
 
 // Word Reverse
 
 /**
  * 
- * @param {string} parola 
+ * @param {string} 
  * @returns 
  */
 
-function wordReverse(parola) {
-    let reversedParola = "";
+function wordReverse() {
+    let reversedWord = "";
 
-    for (let i = parola.length - 1; i >= 0; i--) {
+    for (let i = word.length - 1; i >= 0; i--) {
 
-        reversedParola = reversedParola + parola[i];
+        reversedWord += word[i];
+
     }
-    return reversedParola
-};
+    if (word === reversedWord) {
+        console.log("La parola è palindroma");
+
+    } else {
+        console.log("La parola non è palindroma");
+
+    }
+
+    return reversedWord
+}
